@@ -1,7 +1,7 @@
 {
-  "name": "framework",
-  "version": "0.4.0",
-  "description": "CSS framework from two students",
+  "name": "Web-builder",
+  "version": "1.0.0",
+  "description": "Web-builder",
   "scripts": {
     "compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/",
     "purge-prefix": "postcss --config postcss.config.js dist/framework.css -o dist/purge/framework-prefix.css",
@@ -19,10 +19,6 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "dragula": "^3.7.3",
-    "js-file-download": "^0.4.12"
-  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
     "autoprefixer": "^10.2.4",
